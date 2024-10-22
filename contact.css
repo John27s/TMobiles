@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.about {
+    width: 500px;
+}

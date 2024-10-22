@@ -1,0 +1,49 @@
+
+.SP{
+    display: flex;
+    justify-content: center;
+}
+
+#maindiv {
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+    padding: 2%;
+    margin: 2%;
+    gap: 10%;
+}
+#product{
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+    width: 150px;
+    box-shadow: 1px 1px 3px black;
+    margin-top: 20px;
+
+}
+#img{
+    width: 70px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+#title{
+    font-size: 15px;
+    margin: 10px 0;
+}
+#price{
+    font-size: 12px;
+    color:blue;
+}
+#Btn{
+    background-color:blueviolet;
+    color: white;
+    padding: 2px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+

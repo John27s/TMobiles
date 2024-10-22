@@ -1,0 +1,153 @@
+.ROPOS {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    justify-content: space-between;
+    font-size: 18px;
+    
+} 
+
+#logo {
+    padding: 10px;
+    text-decoration: none;
+}
+#container {
+   margin-left: 10%;
+   display: flex;
+   list-style-type:none;
+   align-content: start;
+   align-items: start;
+   justify-content: flex-start;
+   gap: 20px;
+
+}
+
+#container > li > a {
+    text-decoration: none;
+   float: right;
+    list-style-type:none;
+    text-align: center;
+  
+}
+#bar {
+    height: 20px;
+    padding: 16px;
+    margin-left: 60%;
+    margin-right: 10px;
+    float: right;
+    position: absolute;
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    #bar {
+        display:block;
+    }
+
+    #logo {
+        margin-right: 20px;
+    }
+    #container {
+        flex-direction: column;
+    }
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+ @media only screen and (min-width: 600px){
+    #bar {
+        display:none;
+        margin-left: 63%;
+    }
+  
+
+    #container {
+        flex-direction: row;
+    }
+}
+
+
+.SP{
+    display: flex;
+    justify-content: center;
+}
+
+#maindiv {
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+    /* place-content: end space-around; */
+}
+#product{
+    border-radius: 20px;
+    padding: 6px;
+    width: 184px;
+    margin: 4%;
+    background-color: bisque;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    
+ 
+}
+#img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    object-fit: contain;
+    margin-bottom: 6px;
+    margin-left: 44px;
+}
+#title{
+    font-size: 15px;
+    margin: 10px 0;
+    margin-left: 16px;
+}
+#price{
+    font-size: 15px;
+    color:blue;
+    margin: 10px 0;
+    margin-left: 16px;
+}
+#Btn{
+    background-color:salmon;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 4;
+    margin-left: 16px;
+}
+footer{
+    background-color: black;
+    height: max-content;
+    display: flex;
+    color: white;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+
+footer > ul {
+    list-style-type: none;
+}
+
+footer > ul> button {
+    height: 200px;
+    background-color: rgb(224, 153, 21);
+}
+footer ul img{
+    width: 30px;
+    height: 20px;
+    object-fit: contain;
+}
+#head {
+    margin: 20px 0px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#submit {
+    background-color: orange;
+}
