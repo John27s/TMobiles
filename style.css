@@ -78,7 +78,7 @@
     display: flex;
     flex-wrap: wrap;
     height: max-content;
-    /* place-content: end space-around; */
+    place-content: end space-around;
 }
 #product{
     border-radius: 20px;
